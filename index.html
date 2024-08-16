@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Главная</title>
+
+    <meta name="description" content="Описание">
+    <meta name="keywords" content="Ключевики">
+    <meta name="author" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+	
+	
+    <script>
+        const totalFontSize = function() {
+            const pageWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;  
+            
+            if (pageWidth > 1920) {
+                document.documentElement.style.fontSize = '12px';
+            }else if (pageWidth > 992.99) {
+                let value = (pageWidth * 10 / 1440).toFixed(2);
+                document.documentElement.style.fontSize = value + 'px';
+            } else {
+                document.documentElement.style.fontSize = '10px';
+            }
+        };
+
+        totalFontSize();
+		
+		window.addEventListener('resize', totalFontSize);
+		
+    </script>
+    	
+	<link rel="stylesheet" href="css/plugins/plugins.min.css?_v=20240816234238"> 
+	
+	<link rel="stylesheet" href="css/style.min.css?_v=20240816234238">
+
+
+
+</head>
+
+<body>
+
+  
+
+  <header class="header pc">
+  <div class="header__top">
+    <div class="header__container--big">
+      <a href="/" class="header__logo">
+  <img src="img/header-logo.svg" alt="Sorbona" loading="lazy" class="img-full" />
+</a>
+      <nav class="nav">
+  <a href="#" class="nav__link current">Главная</a>
+  <a href="#" class="nav__link">Производители</a>
+  <a href="#" class="nav__link">О компании</a>
+  <a href="#" class="nav__link">Обмен и возврат</a>
+  <a href="#" class="nav__link">Новости</a>
+  <a href="#" class="nav__link">Контакты</a>
+</nav>
+      <div class="header__top_group">
+        <div class="phone">
+          <div class="phone__item">
+            <svg><use xlink:href="img/icons/icons.svg#icon-phone"></use></svg>
+            <a href="tel:+380503236661">+38 (050) 323-66-61</a>
+          </div>
+          <div class="phone__more">
+            <svg><use xlink:href="img/icons/icons.svg#icon-label-open"></use></svg>
+          </div>
+          <div class="phone__list">
+            <a href="tel:+380676236661" class="phone-list__item">+38 (067)-623-66-61</a>
+          </div>
+        </div>
+        <div class="lang">
+  <a href="#" class="lang-item active">RU</a>
+  <a href="#" class="lang-item">UA</a>
+  <a href="#" class="lang-item">EN</a>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="header__bottom">
+    <div class="header__container--big">
+      <div class="header__catalog">
+  <div class="catalog-btn">
+    <svg><use xlink:href="img/icons/icons.svg#icon-burger"></use></svg>
+    <p>Каталог товаров</p>
+  </div>
+  <div class="catalog-menu">
+    <div class="catalog-menu__list">
+      <h4 class="catalog-menu__sublist-title">Каталог товаров</h4>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Запорно-регулирующая арматура</a>
+        <div class="catalog-menu__sublist">
+          <h4 class="catalog-menu__sublist-title">Запорно-регулирующая арматура</h4>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Шаровые краны</a>
+            <div class="catalog-menu__sublists">
+              <h4 class="catalog-menu__sublist-title">Шаровые краны</h4>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Koer</a>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Valve</a>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Ango</a>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Solomon</a>
+            </div>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Задвижки</a>
+            <div class="catalog-menu__sublists">
+              <h4 class="catalog-menu__sublist-title">Задвижки</h4>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Koer</a>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Valve</a>
+            </div>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Приборные краны</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Самоварные краны</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Поливочные краны</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Редукторы давления</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Фильтра грубой очистки</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Обратные клапана</a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Трубы и фитинги</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Латунный фитинг</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Шланги для воды и газа</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Отопительная техника</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Водоочистка</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Изоляционные и герметизирующие материалы</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Смесители и запчасти</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Полив</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Насосная техника</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Сифоны и сантехника</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Хомуты и крепежи</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <form action="" method="get" class="search">
+  <label for="search">
+    <svg><use xlink:href="img/icons/icons.svg#icon-search"></use></svg>
+    <input name="search" id="search" placeholder="Поиск" type="search" class="search__input" />
+  </label>
+  <button type="submit" class="search__button">Найти</button>
+</form>
+      <div class="header__line"></div>
+      <a href="#" class="header__login">
+  <div class="header__login-icon">
+    <svg><use xlink:href="img/icons/icons.svg#icon-login"></use></svg>
+  </div>
+  <div class="header__login-text">Войти</div>
+</a>
+
+      <span class="header__line"></span>
+      <div class="header__basket">
+  <svg><use xlink:href="img/icons/icons.svg#icon-basket"></use></svg>
+  <span>Корзина</span>
+</div>
+    </div>
+  </div>
+</header>
+
+
+<header class="header mobile">
+  <div class="header__container--big">
+    <div class="header__col">
+      <button class="header__burger">
+        <svg><use xlink:href="img/icons/icons.svg#icon-burger"></use></svg>
+        <svg><use xlink:href="img/icons/icons.svg#icon-close"></use></svg>
+      </button>
+      <a href="/" class="header__logo">
+  <img src="img/header-logo.svg" alt="Sorbona" loading="lazy" class="img-full" />
+</a>
+    </div>
+    <div class="header__col">
+      <form action="" method="get" class="search">
+  <label for="search">
+    <svg><use xlink:href="img/icons/icons.svg#icon-search"></use></svg>
+    <input name="search" id="search" placeholder="Поиск" type="search" class="search__input" />
+  </label>
+  <button type="submit" class="search__button">Найти</button>
+</form>
+      <div class="header__basket">
+  <svg><use xlink:href="img/icons/icons.svg#icon-basket"></use></svg>
+  <span>Корзина</span>
+</div>
+      <div class="lang">
+  <a href="#" class="lang-item active">RU</a>
+  <a href="#" class="lang-item">UA</a>
+  <a href="#" class="lang-item">EN</a>
+</div>
+    </div>
+  </div>
+  <div class="menu" id="menu">
+  <div class="menu__container">
+    <div class="menu__wrap">
+      <div class="header__catalog">
+  <div class="catalog-btn">
+    <svg><use xlink:href="img/icons/icons.svg#icon-burger"></use></svg>
+    <p>Каталог товаров</p>
+  </div>
+  <div class="catalog-menu">
+    <div class="catalog-menu__list">
+      <h4 class="catalog-menu__sublist-title">Каталог товаров</h4>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Запорно-регулирующая арматура</a>
+        <div class="catalog-menu__sublist">
+          <h4 class="catalog-menu__sublist-title">Запорно-регулирующая арматура</h4>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Шаровые краны</a>
+            <div class="catalog-menu__sublists">
+              <h4 class="catalog-menu__sublist-title">Шаровые краны</h4>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Koer</a>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Valve</a>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Ango</a>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Solomon</a>
+            </div>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Задвижки</a>
+            <div class="catalog-menu__sublists">
+              <h4 class="catalog-menu__sublist-title">Задвижки</h4>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Koer</a>
+              <a href="#" class="catalog-menu__sublists__link">Шаровые краны Valve</a>
+            </div>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Приборные краны</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Самоварные краны</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Поливочные краны</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Редукторы давления</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Фильтра грубой очистки</a>
+          </div>
+          <div class="catalog-menu__sublist_item">
+            <a href="#" class="catalog-menu__sublist__link">Обратные клапана</a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Трубы и фитинги</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Латунный фитинг</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Шланги для воды и газа</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Отопительная техника</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Водоочистка</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Изоляционные и герметизирующие материалы</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Смесители и запчасти</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Полив</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Насосная техника</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Сифоны и сантехника</a>
+      </div>
+      <div class="catalog-menu__item">
+        <a href="#" class="catalog-menu__link">Хомуты и крепежи</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <nav class="nav">
+  <a href="#" class="nav__link current">Главная</a>
+  <a href="#" class="nav__link">Производители</a>
+  <a href="#" class="nav__link">О компании</a>
+  <a href="#" class="nav__link">Обмен и возврат</a>
+  <a href="#" class="nav__link">Новости</a>
+  <a href="#" class="nav__link">Контакты</a>
+</nav>
+      <div class="header__line"></div>
+      <a href="#" class="header__login">
+  <div class="header__login-icon">
+    <svg><use xlink:href="img/icons/icons.svg#icon-login"></use></svg>
+  </div>
+  <div class="header__login-text">Войти</div>
+</a>
+
+      <div class="header__line"></div>
+      <div class="phone">
+  <div class="phone__item">
+    <svg><use xlink:href="img/icons/icons.svg#icon-phone"></use></svg>
+    <a href="tel:+380503236661">+38 (050) 323-66-61</a>
+  </div>
+  <div class="phone__item">
+    <svg><use xlink:href="img/icons/icons.svg#icon-phone"></use></svg>
+    <a href="tel:+380676236661">+38 (067)-623-66-61</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+</header>
+
+
+  <main>
+
+    <section class="catalog">
+  <div class="catalog__container">
+    <div class="catalog__wrap">
+      <div class="catalog__item catalog-item">
+        <a href="subcategory.html" class="catalog-item__head">
+          <p class="catalog-item__head-title">Запорно-регулирующая арматура</p>
+          <img
+            src="img/main/category/main-category-img1.png"
+            alt="image"
+            loading="lazy"
+            class="catalog-item__head-img"
+          />
+        </a>
+        <div class="catalog-item__content">
+          <div class="catalog-item__content_body">
+            <a href="subcategory2.html" class="catalog-item__content-link">Шаровые краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Задвижки</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Приборные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Самоварные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Поливочные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Шаровые краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Задвижки</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Приборные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Самоварные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Поливочные краны</a>
+          </div>
+          <div class="catalog-item__content-more">
+            <span>Больше категорий</span>
+            <svg><use xlink:href="img/icons/icons.svg#icon-label-open"></use></svg>
+          </div>
+        </div>
+      </div>
+      <div class="catalog__item catalog-item">
+        <a href="subcategory.html" class="catalog-item__head">
+          <p class="catalog-item__head-title">Трубы и фитинги</p>
+          <img
+            src="img/main/category/main-category-img2.png"
+            alt="image"
+            loading="lazy"
+            class="catalog-item__head-img"
+          />
+        </a>
+        <div class="catalog-item__content">
+          <div class="catalog-item__content_body">
+            <a href="subcategory2.html" class="catalog-item__content-link">Фитинги</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Гебо</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Прокладки, колечки, уплотнительные манжеты</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Подводка для воды</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Подводка для газа</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Фитинги</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Гебо</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Прокладки, колечки, уплотнительные манжеты</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Подводка для воды</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Подводка для газа</a>
+          </div>
+          <div class="catalog-item__content-more">
+            <span>Больше категорий</span>
+            <svg><use xlink:href="img/icons/icons.svg#icon-label-open"></use></svg>
+          </div>
+        </div>
+      </div>
+      <div class="catalog__item catalog-item">
+        <a href="subcategory.html" class="catalog-item__head">
+          <p class="catalog-item__head-title">Латунный фитинг</p>
+          <img
+            src="img/main/category/main-category-img3.png"
+            alt="image"
+            loading="lazy"
+            class="catalog-item__head-img"
+          />
+        </a>
+        <div class="catalog-item__content">
+          <div class="catalog-item__content_body">
+            <a href="subcategory2.html" class="catalog-item__content-link">Шаровые краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Задвижки</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Приборные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Самоварные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Поливочные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Шаровые краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Задвижки</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Приборные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Самоварные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Поливочные краны</a>
+          </div>
+          <div class="catalog-item__content-more">
+            <span>Больше категорий</span>
+            <svg><use xlink:href="img/icons/icons.svg#icon-label-open"></use></svg>
+          </div>
+        </div>
+      </div>
+      <div class="catalog__item catalog-item">
+        <a href="subcategory.html" class="catalog-item__head">
+          <p class="catalog-item__head-title">Шланги для воды и газа</p>
+          <img
+            src="img/main/category/main-category-img4.png"
+            alt="image"
+            loading="lazy"
+            class="catalog-item__head-img"
+          />
+        </a>
+        <div class="catalog-item__content">
+          <div class="catalog-item__content_body">
+            <a href="subcategory2.html" class="catalog-item__content-link">Шаровые краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Задвижки</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Приборные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Самоварные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Поливочные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Приборные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Самоварные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Поливочные краны</a>
+          </div>
+          <div class="catalog-item__content-more">
+            <span>Больше категорий</span>
+            <svg><use xlink:href="img/icons/icons.svg#icon-label-open"></use></svg>
+          </div>
+        </div>
+      </div>
+      <div class="catalog__item catalog-item">
+        <a href="subcategory.html" class="catalog-item__head">
+          <p class="catalog-item__head-title">Отопительная техника</p>
+          <img
+            src="img/main/category/main-category-img5.png"
+            alt="image"
+            loading="lazy"
+            class="catalog-item__head-img"
+          />
+        </a>
+        <div class="catalog-item__content">
+          <div class="catalog-item__content_body">
+            <a href="subcategory2.html" class="catalog-item__content-link">Фитинги</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Гебо</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Прокладки, колечки, уплотнительные манжеты</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Подводка для воды</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Подводка для газа</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Подводка для газа</a>
+          </div>
+          <div class="catalog-item__content-more">
+            <span>Больше категорий</span>
+            <svg><use xlink:href="img/icons/icons.svg#icon-label-open"></use></svg>
+          </div>
+        </div>
+      </div>
+      <div class="catalog__item catalog-item">
+        <a href="subcategory.html" class="catalog-item__head">
+          <p class="catalog-item__head-title">Водоочистка</p>
+          <img
+            src="img/main/category/main-category-img6.png"
+            alt="image"
+            loading="lazy"
+            class="catalog-item__head-img"
+          />
+        </a>
+        <div class="catalog-item__content">
+          <div class="catalog-item__content_body">
+            <a href="subcategory2.html" class="catalog-item__content-link">Шаровые краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Задвижки</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Приборные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Самоварные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link">Поливочные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Самоварные краны</a>
+            <a href="subcategory2.html" class="catalog-item__content-link hidden">Поливочные краны</a>
+          </div>
+          <div class="catalog-item__content-more">
+            <span>Больше категорий</span>
+            <svg><use xlink:href="img/icons/icons.svg#icon-label-open"></use></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+    <section class="section">
+  <div class="section__container section__container--productpb section__container_productlist">
+    <h2 class="section__title">Новинки каталога</h2>
+    <div class="product-list">
+      <a href="#" class="product-item">
+  <div class="product-item__image">
+    <div class="product-item__label">NEW</div>
+    <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
+  </div>
+  <div class="product-item__body">
+    <div class="product-item__head">
+      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
+    </div>
+    <div class="product-item__prices">
+      <div class="product-item__prices_left">
+        <div class="price"><span>233.10 ₴</span></div>
+      </div>
+      <div class="product-item__prices_right">
+        <div class="price__number"><span>232.17 ₴</span> от 10 шт</div>
+        <div class="price__number"><span>212.18 ₴</span> от 100 шт</div>
+      </div>
+    </div>
+    <div class="product-item__bottom">
+      <div class="product-item__quantity">
+        <button class="product-item__quantity_minus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-minus"></use></svg>
+        </button>
+        <span id="add_num" class="product-item__quantity_num">1</span>
+        <button class="product-item__quantity_plus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-plus"></use></svg>
+        </button>
+      </div>
+      <button class="product-item__tobasket btn">В корзину</button>
+    </div>
+  </div>
+</a>
+
+      <a href="#" class="product-item">
+  <div class="product-item__image">
+    <div class="product-item__label">NEW</div>
+    <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
+  </div>
+  <div class="product-item__body">
+    <div class="product-item__head">
+      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
+    </div>
+    <div class="product-item__prices">
+      <div class="product-item__prices_left">
+        <div class="price"><span>233.10 ₴</span></div>
+      </div>
+      <div class="product-item__prices_right">
+        <div class="price__number"><span>232.17 ₴</span> от 10 шт</div>
+        <div class="price__number"><span>212.18 ₴</span> от 100 шт</div>
+      </div>
+    </div>
+    <div class="product-item__bottom">
+      <div class="product-item__quantity">
+        <button class="product-item__quantity_minus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-minus"></use></svg>
+        </button>
+        <span id="add_num" class="product-item__quantity_num">1</span>
+        <button class="product-item__quantity_plus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-plus"></use></svg>
+        </button>
+      </div>
+      <button class="product-item__tobasket btn">В корзину</button>
+    </div>
+  </div>
+</a>
+
+      <a href="#" class="product-item">
+  <div class="product-item__image">
+    <div class="product-item__label">NEW</div>
+    <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
+  </div>
+  <div class="product-item__body">
+    <div class="product-item__head">
+      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
+    </div>
+    <div class="product-item__prices">
+      <div class="product-item__prices_left">
+        <div class="price"><span>233.10 ₴</span></div>
+      </div>
+      <div class="product-item__prices_right">
+        <div class="price__number"><span>232.17 ₴</span> от 10 шт</div>
+        <div class="price__number"><span>212.18 ₴</span> от 100 шт</div>
+      </div>
+    </div>
+    <div class="product-item__bottom">
+      <div class="product-item__quantity">
+        <button class="product-item__quantity_minus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-minus"></use></svg>
+        </button>
+        <span id="add_num" class="product-item__quantity_num">1</span>
+        <button class="product-item__quantity_plus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-plus"></use></svg>
+        </button>
+      </div>
+      <button class="product-item__tobasket btn">В корзину</button>
+    </div>
+  </div>
+</a>
+
+      <a href="#" class="product-item">
+  <div class="product-item__image">
+    <div class="product-item__label">NEW</div>
+    <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
+  </div>
+  <div class="product-item__body">
+    <div class="product-item__head">
+      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
+    </div>
+    <div class="product-item__prices">
+      <div class="product-item__prices_left">
+        <div class="price"><span>233.10 ₴</span></div>
+      </div>
+      <div class="product-item__prices_right">
+        <div class="price__number"><span>232.17 ₴</span> от 10 шт</div>
+        <div class="price__number"><span>212.18 ₴</span> от 100 шт</div>
+      </div>
+    </div>
+    <div class="product-item__bottom">
+      <div class="product-item__quantity">
+        <button class="product-item__quantity_minus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-minus"></use></svg>
+        </button>
+        <span id="add_num" class="product-item__quantity_num">1</span>
+        <button class="product-item__quantity_plus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-plus"></use></svg>
+        </button>
+      </div>
+      <button class="product-item__tobasket btn">В корзину</button>
+    </div>
+  </div>
+</a>
+
+    </div>
+  </div>
+</section>
+    <section class="section">
+  <div class="section__container section__container--productpb section__container_productlist">
+    <h2 class="section__title">Товары со скидкой</h2>
+    <div class="product-list">
+      <a href="#" class="product-item">
+  <div class="product-item__image">
+    <div class="product-item__label">NEW</div>
+    <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
+  </div>
+  <div class="product-item__body">
+    <div class="product-item__head">
+      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
+    </div>
+    <div class="product-item__prices">
+      <div class="product-item__prices_left">
+        <div class="price"><span>233.10 ₴</span></div>
+      </div>
+      <div class="product-item__prices_right">
+        <div class="price__number"><span>232.17 ₴</span> от 10 шт</div>
+        <div class="price__number"><span>212.18 ₴</span> от 100 шт</div>
+      </div>
+    </div>
+    <div class="product-item__bottom">
+      <div class="product-item__quantity">
+        <button class="product-item__quantity_minus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-minus"></use></svg>
+        </button>
+        <span id="add_num" class="product-item__quantity_num">1</span>
+        <button class="product-item__quantity_plus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-plus"></use></svg>
+        </button>
+      </div>
+      <button class="product-item__tobasket btn">В корзину</button>
+    </div>
+  </div>
+</a>
+
+      <a href="#" class="product-item">
+  <div class="product-item__image">
+    <div class="product-item__label">NEW</div>
+    <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
+  </div>
+  <div class="product-item__body">
+    <div class="product-item__head">
+      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
+    </div>
+    <div class="product-item__prices">
+      <div class="product-item__prices_left">
+        <div class="price"><span>233.10 ₴</span></div>
+      </div>
+      <div class="product-item__prices_right">
+        <div class="price__number"><span>232.17 ₴</span> от 10 шт</div>
+        <div class="price__number"><span>212.18 ₴</span> от 100 шт</div>
+      </div>
+    </div>
+    <div class="product-item__bottom">
+      <div class="product-item__quantity">
+        <button class="product-item__quantity_minus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-minus"></use></svg>
+        </button>
+        <span id="add_num" class="product-item__quantity_num">1</span>
+        <button class="product-item__quantity_plus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-plus"></use></svg>
+        </button>
+      </div>
+      <button class="product-item__tobasket btn">В корзину</button>
+    </div>
+  </div>
+</a>
+
+      <a href="#" class="product-item">
+  <div class="product-item__image">
+    <div class="product-item__label">NEW</div>
+    <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
+  </div>
+  <div class="product-item__body">
+    <div class="product-item__head">
+      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
+    </div>
+    <div class="product-item__prices">
+      <div class="product-item__prices_left">
+        <div class="price"><span>233.10 ₴</span></div>
+      </div>
+      <div class="product-item__prices_right">
+        <div class="price__number"><span>232.17 ₴</span> от 10 шт</div>
+        <div class="price__number"><span>212.18 ₴</span> от 100 шт</div>
+      </div>
+    </div>
+    <div class="product-item__bottom">
+      <div class="product-item__quantity">
+        <button class="product-item__quantity_minus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-minus"></use></svg>
+        </button>
+        <span id="add_num" class="product-item__quantity_num">1</span>
+        <button class="product-item__quantity_plus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-plus"></use></svg>
+        </button>
+      </div>
+      <button class="product-item__tobasket btn">В корзину</button>
+    </div>
+  </div>
+</a>
+
+      <a href="#" class="product-item">
+  <div class="product-item__image">
+    <div class="product-item__label">NEW</div>
+    <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
+  </div>
+  <div class="product-item__body">
+    <div class="product-item__head">
+      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
+    </div>
+    <div class="product-item__prices">
+      <div class="product-item__prices_left">
+        <div class="price"><span>233.10 ₴</span></div>
+      </div>
+      <div class="product-item__prices_right">
+        <div class="price__number"><span>232.17 ₴</span> от 10 шт</div>
+        <div class="price__number"><span>212.18 ₴</span> от 100 шт</div>
+      </div>
+    </div>
+    <div class="product-item__bottom">
+      <div class="product-item__quantity">
+        <button class="product-item__quantity_minus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-minus"></use></svg>
+        </button>
+        <span id="add_num" class="product-item__quantity_num">1</span>
+        <button class="product-item__quantity_plus">
+          <svg><use xlink:href="img/icons/icons.svg#icon-plus"></use></svg>
+        </button>
+      </div>
+      <button class="product-item__tobasket btn">В корзину</button>
+    </div>
+  </div>
+</a>
+
+    </div>
+  </div>
+</section>
+    <section class="section">
+  <div class="section__container section__container--pb">
+    <h2 class="section__title">О компании</h2>
+    <div class="about-company">
+      <div class="about-company__body">
+        <div class="about-company__col">
+          <p>
+            Мы занимаемся продажей сантехники с 1996г. Основная специализация – сантехзапорная арматура, а так же мы
+            можем предложить много сопутствующих товаров. Вся продукция высокого качества, производится на заводах и
+            фабриках Украины, России, Белоруссии, Китая, Италии и Испании.
+            <br /><br />
+            Продукция представлена новыми и уже широко известными брендами: Viega, АНИпласт, Ango, J.G., FADO, Henco,
+            CoesKlima, Sitek, Valsir, Unipak, FIL-NOX(Mateu), HTM, Valve, AquaKut.
+          </p>
+        </div>
+        <div class="about-company__col">
+          <p>
+            В настоящий момент ассортимент насчитывает более 5000 наименований: латунная запорная арматура, пластиковый и металлопластиковый водопровод и фитинг, подводка для воды и газа включает в себя армированные шланги, сильфонные шланги из нержавеющей стали , медные трубки, подводка и слив для стиральных машин, радиаторная арматура, латунные шаровые и вентильные краны, задвижки, сифоны, фильтры и колбы для грубой и тонкой очистки воды, сменные картриджи, счетчики воды, арматура в сборе и клапана для сливных бочков, поливочная пластмассовая фурнитура и шланги, и многое другое.
+          </p>
+        </div>
+      </div>
+      <a href="#" class="about-company__btn btn">Подробнее</a>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- END main page -->
+
+  <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__top">
+      <div class="footer__col">
+        <a href="/" class="footer__logo">
+          <img src="img/footer-logo.svg" alt="image" loading="lazy" class="img-full" />
+        </a>
+        <p class="footer__text">
+          Интернет-магазин запорно-сантехнической арматуры в Украине. Официальный дилер FADO в Харькове и области
+        </p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">
+            <svg><use xlink:href="img/icons/icons.svg#social-facebook"></use></svg>
+          </a>
+          <a href="#" class="footer__social-link">
+            <svg><use xlink:href="img/icons/icons.svg#social-instagram"></use></svg>
+          </a>
+        </div>
+      </div>
+      <nav class="footer__nav">
+        <div class="footer-nav__col">
+          <h4 class="footer-nav__title">Информация</h4>
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Главная</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Производители</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">О компании</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Обмен и возврат</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Новости</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav__col">
+          <h4 class="footer-nav__title">Личный кабинет</h4>
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Аккаунт</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Мои заказы</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="footer__info">
+        <h4 class="footer-info__title">Контакты</h4>
+        <a href="tel:+380503236661" class="footer-info__item">+38 (050) 323-66-61</a>
+        <a href="tel:+380676236661" class="footer-info__item">+38 (067)-623-66-61</a>
+        <a href="mail:email@gmail.com" class="footer-info__item">email@gmail.com</a>
+        <p class="footer-info__item">Украина, г.Харьков,<br> ОФИС - пр. Московский, 196/1 студия "АртУм"</p>
+      </div>
+    </div>
+    <div class="footer__row">
+      <p class="footer-row__item">© 2023 SORBONA. Все права защищены</p>
+      <a href="#" class="footer-row__item">Политика конфиденциальности</a>
+      <div class="footer-row__creator">Создание сайта <img src="img/logo-webakula.svg" alt="image" loading="lazy" /></div>
+    </div>
+  </div>
+</footer>
+
+  
+  
+  <script src="js/plugins/plugins.min.js?_v=20240816234238"></script>
+
+<script src="js/app.min.js?_v=20240816234238"></script>
+ 
+</body>
+
+</html>
