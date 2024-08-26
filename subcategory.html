@@ -37,9 +37,9 @@
 		
     </script>
     	
-	<link rel="stylesheet" href="css/plugins/plugins.min.css?_v=20240816234238"> 
+	<link rel="stylesheet" href="css/plugins/plugins.min.css?_v=20240826221730"> 
 	
-	<link rel="stylesheet" href="css/style.min.css?_v=20240816234238">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240826221730">
 
 
 
@@ -178,7 +178,7 @@
     <svg><use xlink:href="img/icons/icons.svg#icon-search"></use></svg>
     <input name="search" id="search" placeholder="Поиск" type="search" class="search__input" />
   </label>
-  <button type="submit" class="search__button">Найти</button>
+  <button type="submit" class="search__button btn btn--line">Найти</button>
 </form>
       <div class="header__line"></div>
       <a href="#" class="header__login">
@@ -190,9 +190,24 @@
 
       <span class="header__line"></span>
       <div class="header__basket">
-  <svg><use xlink:href="img/icons/icons.svg#icon-basket"></use></svg>
+  <div class="header__basket_icon">
+    <svg><use xlink:href="img/icons/icons.svg#icon-basket"></use></svg>
+  </div>
   <span>Корзина</span>
 </div>
+<div class="mini-cart empty">
+  <div class="mini-cart__wrapper">
+    <div class="mini-cart__close">
+      <svg><use xlink:href="img/icons/icons.svg#icon-close"></use></svg>
+    </div>
+    <div class="mini-cart__empty">
+      <img src="img/empty-mini-cart.png" alt="image" loading="lazy">
+      <p>Ваша корзина пуста</p>
+    </div>
+  </div>
+</div>
+<div class="layout"></div>
+
     </div>
   </div>
 </header>
@@ -215,12 +230,27 @@
     <svg><use xlink:href="img/icons/icons.svg#icon-search"></use></svg>
     <input name="search" id="search" placeholder="Поиск" type="search" class="search__input" />
   </label>
-  <button type="submit" class="search__button">Найти</button>
+  <button type="submit" class="search__button btn btn--line">Найти</button>
 </form>
       <div class="header__basket">
-  <svg><use xlink:href="img/icons/icons.svg#icon-basket"></use></svg>
+  <div class="header__basket_icon">
+    <svg><use xlink:href="img/icons/icons.svg#icon-basket"></use></svg>
+  </div>
   <span>Корзина</span>
 </div>
+<div class="mini-cart empty">
+  <div class="mini-cart__wrapper">
+    <div class="mini-cart__close">
+      <svg><use xlink:href="img/icons/icons.svg#icon-close"></use></svg>
+    </div>
+    <div class="mini-cart__empty">
+      <img src="img/empty-mini-cart.png" alt="image" loading="lazy">
+      <p>Ваша корзина пуста</p>
+    </div>
+  </div>
+</div>
+<div class="layout"></div>
+
       <div class="lang">
   <a href="#" class="lang-item active">RU</a>
   <a href="#" class="lang-item">UA</a>
@@ -542,14 +572,14 @@
   <div class="section__container section__container--productpb section__container_productlist">
     <h2 class="section__title">Рекомендовано для вас</h2>
     <div class="product-list">
-      <a href="#" class="product-item">
-  <div class="product-item__image">
+      <div class="product-item ">
+  <a href="product.html" class="product-item__image">
     <div class="product-item__label">NEW</div>
     <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
-  </div>
+  </a>
   <div class="product-item__body">
     <div class="product-item__head">
-      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <a href="product.html" class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</a>
       <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
     </div>
     <div class="product-item__prices">
@@ -574,16 +604,16 @@
       <button class="product-item__tobasket btn">В корзину</button>
     </div>
   </div>
-</a>
+</div>
 
-      <a href="#" class="product-item">
-  <div class="product-item__image">
+      <div class="product-item ">
+  <a href="product.html" class="product-item__image">
     <div class="product-item__label">NEW</div>
     <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
-  </div>
+  </a>
   <div class="product-item__body">
     <div class="product-item__head">
-      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <a href="product.html" class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</a>
       <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
     </div>
     <div class="product-item__prices">
@@ -608,16 +638,16 @@
       <button class="product-item__tobasket btn">В корзину</button>
     </div>
   </div>
-</a>
+</div>
 
-      <a href="#" class="product-item">
-  <div class="product-item__image">
+      <div class="product-item ">
+  <a href="product.html" class="product-item__image">
     <div class="product-item__label">NEW</div>
     <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
-  </div>
+  </a>
   <div class="product-item__body">
     <div class="product-item__head">
-      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <a href="product.html" class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</a>
       <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
     </div>
     <div class="product-item__prices">
@@ -642,16 +672,16 @@
       <button class="product-item__tobasket btn">В корзину</button>
     </div>
   </div>
-</a>
+</div>
 
-      <a href="#" class="product-item">
-  <div class="product-item__image">
+      <div class="product-item ">
+  <a href="product.html" class="product-item__image">
     <div class="product-item__label">NEW</div>
     <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
-  </div>
+  </a>
   <div class="product-item__body">
     <div class="product-item__head">
-      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <a href="product.html" class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</a>
       <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
     </div>
     <div class="product-item__prices">
@@ -676,16 +706,16 @@
       <button class="product-item__tobasket btn">В корзину</button>
     </div>
   </div>
-</a>
+</div>
 
-      <a href="#" class="product-item">
-  <div class="product-item__image">
+      <div class="product-item ">
+  <a href="product.html" class="product-item__image">
     <div class="product-item__label">NEW</div>
     <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
-  </div>
+  </a>
   <div class="product-item__body">
     <div class="product-item__head">
-      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <a href="product.html" class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</a>
       <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
     </div>
     <div class="product-item__prices">
@@ -710,16 +740,16 @@
       <button class="product-item__tobasket btn">В корзину</button>
     </div>
   </div>
-</a>
+</div>
 
-      <a href="#" class="product-item">
-  <div class="product-item__image">
+      <div class="product-item ">
+  <a href="product.html" class="product-item__image">
     <div class="product-item__label">NEW</div>
     <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
-  </div>
+  </a>
   <div class="product-item__body">
     <div class="product-item__head">
-      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <a href="product.html" class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</a>
       <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
     </div>
     <div class="product-item__prices">
@@ -744,16 +774,16 @@
       <button class="product-item__tobasket btn">В корзину</button>
     </div>
   </div>
-</a>
+</div>
 
-      <a href="#" class="product-item">
-  <div class="product-item__image">
+      <div class="product-item ">
+  <a href="product.html" class="product-item__image">
     <div class="product-item__label">NEW</div>
     <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
-  </div>
+  </a>
   <div class="product-item__body">
     <div class="product-item__head">
-      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <a href="product.html" class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</a>
       <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
     </div>
     <div class="product-item__prices">
@@ -778,16 +808,16 @@
       <button class="product-item__tobasket btn">В корзину</button>
     </div>
   </div>
-</a>
+</div>
 
-      <a href="#" class="product-item">
-  <div class="product-item__image">
+      <div class="product-item ">
+  <a href="product.html" class="product-item__image">
     <div class="product-item__label">NEW</div>
     <img src="img/product/new-product.png" alt="image" loading="lazy" class="img-full" />
-  </div>
+  </a>
   <div class="product-item__body">
     <div class="product-item__head">
-      <h3 class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</h3>
+      <a href="product.html" class="product-item__title">Кран угловой шаровый 1/2" - 3/4" DEF728P AntiLime ARCO Spain</a>
       <p class="product-item__subtitle">Valvulas ARCO S.L.</p>
     </div>
     <div class="product-item__prices">
@@ -812,7 +842,7 @@
       <button class="product-item__tobasket btn">В корзину</button>
     </div>
   </div>
-</a>
+</div>
 
     </div>
   </div>
@@ -879,9 +909,9 @@
 
   
   
-  <script src="js/plugins/plugins.min.js?_v=20240816234238"></script>
+  <script src="js/plugins/plugins.min.js?_v=20240826221730"></script>
 
-<script src="js/app.min.js?_v=20240816234238"></script>
+<script src="js/app.min.js?_v=20240826221730"></script>
  
 </body>
 
