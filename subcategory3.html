@@ -37,9 +37,9 @@
 		
     </script>
     	
-	<link rel="stylesheet" href="css/plugins/plugins.min.css?_v=20240902223328"> 
+	<link rel="stylesheet" href="css/plugins/plugins.min.css?_v=20240916151424"> 
 	
-	<link rel="stylesheet" href="css/style.min.css?_v=20240902223328">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240916151424">
 
 
 
@@ -56,12 +56,12 @@
   <img src="img/header-logo.svg" alt="Sorbona" loading="lazy" class="img-full" />
 </a>
       <nav class="nav">
-  <a href="#" class="nav__link current">Главная</a>
-  <a href="#" class="nav__link">Производители</a>
-  <a href="#" class="nav__link">О компании</a>
+  <a href="/" class="nav__link current">Главная</a>
+  <a href="manufacturers.html" class="nav__link">Производители</a>
+  <a href="about-company.html" class="nav__link">О компании</a>
   <a href="#" class="nav__link">Обмен и возврат</a>
   <a href="#" class="nav__link">Новости</a>
-  <a href="#" class="nav__link">Контакты</a>
+  <a href="contact.html" class="nav__link">Контакты</a>
 </nav>
       <div class="header__top_group">
         <div class="phone">
@@ -79,7 +79,7 @@
         <div class="lang">
   <a href="#" class="lang-item active">RU</a>
   <a href="#" class="lang-item">UA</a>
-  <a href="#" class="lang-item">EN</a>
+  <!-- <a href="#" class="lang-item">EN</a> -->
 </div>
       </div>
     </div>
@@ -173,15 +173,93 @@
   </div>
 </div>
 
-      <form action="" method="get" class="search">
-  <label for="search">
+      <div class="header__search">
+  <button class="search_open-mob">
     <svg><use xlink:href="img/icons/icons.svg#icon-search"></use></svg>
-    <input name="search" id="search" placeholder="Поиск" type="search" class="search__input" />
-  </label>
-  <button type="submit" class="search__button btn btn--line">Найти</button>
-</form>
+  </button>
+  <button class="search_close-mob">
+    <svg><use xlink:href="img/icons/icons.svg#icon-label-open"></use></svg>
+  </button>
+  <form action="" method="get" class="search">
+    <label for="search">
+      <svg><use xlink:href="img/icons/icons.svg#icon-search"></use></svg>
+      <input name="search" id="search" placeholder="Поиск" type="search" class="search__input" />
+      <svg class="search__input_clear"><use xlink:href="img/icons/icons.svg#icon-close"></use></svg>
+    </label>
+    <button type="submit" class="search__button btn btn--line">Найти</button>
+  </form>
+  <div id="search-results" class="search-results">
+    <div class="search-results__wrap">
+      <p class="search-results__title">Найдено в товарах</p>
+      <div class="search-results__list">
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+      </div>
+      <a href="search-results-page.html" class="search-results__btn btn btn--line">Показать все результаты поиска</a>
+    </div>
+  </div>
+</div>
+
       <div class="header__line"></div>
-      <a href="#" class="header__login">
+      <a href="#authorization" data-fancybox class="header__login">
   <div class="header__login-icon">
     <svg><use xlink:href="img/icons/icons.svg#icon-login"></use></svg>
   </div>
@@ -225,13 +303,91 @@
 </a>
     </div>
     <div class="header__col">
-      <form action="" method="get" class="search">
-  <label for="search">
+      <div class="header__search">
+  <button class="search_open-mob">
     <svg><use xlink:href="img/icons/icons.svg#icon-search"></use></svg>
-    <input name="search" id="search" placeholder="Поиск" type="search" class="search__input" />
-  </label>
-  <button type="submit" class="search__button btn btn--line">Найти</button>
-</form>
+  </button>
+  <button class="search_close-mob">
+    <svg><use xlink:href="img/icons/icons.svg#icon-label-open"></use></svg>
+  </button>
+  <form action="" method="get" class="search">
+    <label for="search">
+      <svg><use xlink:href="img/icons/icons.svg#icon-search"></use></svg>
+      <input name="search" id="search" placeholder="Поиск" type="search" class="search__input" />
+      <svg class="search__input_clear"><use xlink:href="img/icons/icons.svg#icon-close"></use></svg>
+    </label>
+    <button type="submit" class="search__button btn btn--line">Найти</button>
+  </form>
+  <div id="search-results" class="search-results">
+    <div class="search-results__wrap">
+      <p class="search-results__title">Найдено в товарах</p>
+      <div class="search-results__list">
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+        <div class="search-results__item">
+          <a href="product.html" class="search-results-item__picture">
+            <img src="img/product/product-img1.png" alt="image" loading="lazy" class="img-full" />
+          </a>
+          <div class="search-results-item__body">
+            <a href="product.html" class="search-results-item__title"
+              >Кран угловой шаровый 1/2" - 1/2" P0710 (NOV06) ARCO Spain</a
+            >
+            <p class="search-results-item__article">Артикул: 376142</p>
+            <p class="search-results-item__price">233.10 ₴</p>
+          </div>
+        </div>
+      </div>
+      <a href="search-results-page.html" class="search-results__btn btn btn--line">Показать все результаты поиска</a>
+    </div>
+  </div>
+</div>
+
       <div class="header__basket">
   <div class="header__basket_icon">
     <svg><use xlink:href="img/icons/icons.svg#icon-basket"></use></svg>
@@ -254,7 +410,7 @@
       <div class="lang">
   <a href="#" class="lang-item active">RU</a>
   <a href="#" class="lang-item">UA</a>
-  <a href="#" class="lang-item">EN</a>
+  <!-- <a href="#" class="lang-item">EN</a> -->
 </div>
     </div>
   </div>
@@ -349,15 +505,15 @@
 </div>
 
       <nav class="nav">
-  <a href="#" class="nav__link current">Главная</a>
-  <a href="#" class="nav__link">Производители</a>
-  <a href="#" class="nav__link">О компании</a>
+  <a href="/" class="nav__link current">Главная</a>
+  <a href="manufacturers.html" class="nav__link">Производители</a>
+  <a href="about-company.html" class="nav__link">О компании</a>
   <a href="#" class="nav__link">Обмен и возврат</a>
   <a href="#" class="nav__link">Новости</a>
-  <a href="#" class="nav__link">Контакты</a>
+  <a href="contact.html" class="nav__link">Контакты</a>
 </nav>
       <div class="header__line"></div>
-      <a href="#" class="header__login">
+      <a href="#authorization" data-fancybox class="header__login">
   <div class="header__login-icon">
     <svg><use xlink:href="img/icons/icons.svg#icon-login"></use></svg>
   </div>
@@ -397,7 +553,7 @@
     
 
     <section class="catalog subcategory">
-  <div class="catalog__container section__container_productlist">
+  <div class="catalog__container section__container_fullmob">
     <h1 class="catalog__title">Шаровые краны Valve</h1>
     <div class="category">
       <sidebar class="category__sidebar"> <div class="filters">
@@ -548,7 +704,7 @@
               <a href="#" class="sort__variant">От дорогих к дешевым </a>
               <a href="#" class="sort__variant">От дешевых к дорогим</a>
             </div>
-            <select name="" id="">
+            <select name="" id="select_ns" class="select_ns">
               <option value="1"><a href="#" class="sort__variant active">По популярности</a></option>
               <option value="1"><a href="#" class="sort__variant">От дорогих к дешевым </a></option>
               <option value="1"><a href="#" class="sort__variant">От дешевых к дорогим</a></option>
@@ -809,12 +965,12 @@
         <div class="footer-nav__col">
           <h4 class="footer-nav__title">Информация</h4>
           <ul class="footer-nav__list">
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Главная</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Производители</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">О компании</a></li>
+            <li class="footer-nav__item"><a href="/" class="footer-nav__link">Главная</a></li>
+            <li class="footer-nav__item"><a href="manufacturers.html" class="footer-nav__link">Производители</a></li>
+            <li class="footer-nav__item"><a href="about-company.html" class="footer-nav__link">О компании</a></li>
             <li class="footer-nav__item"><a href="#" class="footer-nav__link">Обмен и возврат</a></li>
             <li class="footer-nav__item"><a href="#" class="footer-nav__link">Новости</a></li>
-            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
+            <li class="footer-nav__item"><a href="contact.html" class="footer-nav__link">Контакты</a></li>
           </ul>
         </div>
         <div class="footer-nav__col">
@@ -835,7 +991,7 @@
     </div>
     <div class="footer__row">
       <p class="footer-row__item">© 2023 SORBONA. Все права защищены</p>
-      <a href="#" class="footer-row__item">Политика конфиденциальности</a>
+      <a href="privacy.html" class="footer-row__item">Политика конфиденциальности</a>
       <div class="footer-row__creator">Создание сайта <img src="img/logo-webakula.svg" alt="image" loading="lazy" /></div>
     </div>
   </div>
@@ -843,9 +999,10 @@
 
   
   
-  <script src="js/plugins/plugins.min.js?_v=20240902223328"></script>
+  
+<script src="js/plugins/plugins.min.js?_v=20240916151424"></script>
 
-<script src="js/app.min.js?_v=20240902223328"></script>
+<script src="js/app.min.js?_v=20240916151424"></script>
  
 </body>
 
